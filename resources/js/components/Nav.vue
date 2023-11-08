@@ -1,7 +1,7 @@
 <template>
     <nav class="navbar navbar-expand-md navbar-light bg-white shadow-sm">
         <div class="container">
-            <router-link to="/" class="navbar-brand">Laravel Vue Stater</router-link>
+            <router-link to="/" class="navbar-brand">CBOO Payroll System</router-link>
             <a class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </a>
@@ -14,7 +14,7 @@
                             <router-link to="/" class="nav-link" aria-current="page">{{ $t('home') }}</router-link>
                         </li>
                         <li class="nav-item">
-                            <router-link :to="{ name : 'public-posts.index'}" class="nav-link">Blog</router-link>
+                            <router-link :to="{ name : 'public-posts.index'}" class="nav-link">Announcement</router-link>
                         </li>
                     <template v-if="!user?.name">
                         <li class="nav-item">

@@ -1,6 +1,6 @@
 <template>
     <div class="container">
-        <h2 class="text-center my-4">Blog Posts</h2>
+        <h2 class="text-center my-4">CBOO Posts</h2>
         <div class="row mb-2">
             <div v-for="post in posts?.data" :key="post.id" class="col-md-6">
                 <div

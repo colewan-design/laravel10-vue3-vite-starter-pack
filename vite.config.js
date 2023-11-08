@@ -4,6 +4,11 @@ import vue from '@vitejs/plugin-vue';
 import path from 'path';
 
 export default defineConfig({
+    server: {
+        hmr: {
+            host: '192.168.110.72', // your IPV4 Address
+        },
+    },
     plugins: [
         laravel({
             input: [
